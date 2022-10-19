@@ -1,0 +1,82 @@
+html,body{
+    margin: 0px;
+}
+img{
+    max-width:100%;
+    border: 15px;
+    
+
+}
+
+
+.container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card   {
+    position: absolute;
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 12px;
+    border-color: rgba(0,0,0,0.3);
+    background-color: rgba(157, 125, 82, 0.747);
+    min-width: 30%;
+    min-height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+#Login{
+    position: relative;
+    text-align: center;
+    color: rgb(233, 202, 129);
+    font-family:'Nobile', Arial, Helvetica, sans-serif;
+    
+   
+}
+#background{
+max-width:100%;
+}
+
+#Coffee_Cup{
+max-width: 20%;
+border-radius: 50%;
+position:absolute;
+}
+
+
+
+
+input[type=username], select{
+    padding: 10px 10px 0px;
+    margin: 10px 10px 0px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+input[type=submit] {
+  width: 75%;
+  background-color: #3167c5;
+  color: white;
+  padding: 10px 10px;
+  margin:10px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  align-self: center;
+}
+input[type=password] {
+    padding: 10px 10px 0px;
+    margin: 10px 10px 5px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing:border-box;
+
+}
